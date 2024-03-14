@@ -1,0 +1,97 @@
+body {
+    color: white;
+    background-image: linear-gradient(to bottom, blue 0%, black 98%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+#multiplicator-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(5, 255, 230);
+    border-radius: 30px;
+    font-size: 0.9em;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    width: 100px;
+    
+}
+
+.form-control label {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=submit] {
+    width: 200px;
+    padding: 5px 0px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-control input {
+    flex: 1;
+    width: 50px;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+#multiplication-table {
+    background-color: rgb(5, 255, 230);
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#multiplication-operation p {
+    font-size: 1.3em;
+    color: black;
+}
+
+.row {
+    border: 2px solid black;
+    border-bottom: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.row:last-child {
+    border-bottom: 2px solid black;
+}
